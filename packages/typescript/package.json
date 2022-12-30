@@ -1,10 +1,9 @@
 {
-  "name": "@xin/eslint-config-ts",
-  "version": "0.1.5",
+  "name": "@taroxin/eslint-config-ts",
+  "version": "0.1.6",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "TaroXin <15029352778@163.com> (https://github.com/taroxin/)",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/eslint-config",
   "keywords": [
     "eslint-config"
   ],
@@ -17,7 +16,7 @@
     "typescript": ">=3.9"
   },
   "dependencies": {
-    "@antfu/eslint-config-basic": "workspace:*",
+    "@taroxin/eslint-config-basic": "workspace:*",
     "@typescript-eslint/eslint-plugin": "^5.46.0",
     "@typescript-eslint/parser": "^5.46.0",
     "eslint-plugin-jest": "^27.1.6"
