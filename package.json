@@ -1,6 +1,6 @@
 {
   "name": "@xin/eslint-config-monorepo",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "packageManager": "pnpm@7.1.0",
   "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "test": "pnpm -r run test",
     "prepare": "pnpm -r run stub",
-    "release": "bumpp package.json packages/*/package.json --commit --push && pnpm run publish",
+    "release": "bumpp package.json packages/*/package.json --commit --push --no-tag && pnpm run publish",
     "publish": "pnpm -r publish --access public"
   },
   "devDependencies": {
