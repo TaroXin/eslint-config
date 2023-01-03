@@ -1,6 +1,6 @@
 {
   "name": "@taroxin/eslint-config-monorepo",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private": true,
   "packageManager": "pnpm@7.1.0",
   "author": "TaroXin <15029352778@163.com> (https://github.com/taroxin/)",
