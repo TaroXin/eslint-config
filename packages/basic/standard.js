@@ -57,7 +57,7 @@ module.exports = {
     'dot-location': ['error', 'property'],
     'dot-notation': ['error', { allowKeywords: true }],
     'eol-last': 'error',
-    'eqeqeq': ['error', 'always', { null: 'ignore' }],
+    'eqeqeq': 'off',
     'func-call-spacing': ['error', 'never'],
     'generator-star-spacing': ['error', { before: true, after: true }],
     'indent': ['error', 2, {

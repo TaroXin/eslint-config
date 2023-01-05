@@ -71,7 +71,7 @@ module.exports = {
     'vue/comma-style': ['error', 'last'],
     'vue/dot-location': ['error', 'property'],
     'vue/dot-notation': ['error', { allowKeywords: true }],
-    'vue/eqeqeq': ['error', 'smart'],
+    'vue/eqeqeq': 'off',
     // 'vue/func-call-spacing': ['off', 'never'],
     'vue/key-spacing': ['error', { beforeColon: false, afterColon: true }],
     'vue/keyword-spacing': ['error', { before: true, after: true }],
@@ -105,5 +105,8 @@ module.exports = {
     'vue/space-infix-ops': 'error',
     'vue/space-unary-ops': ['error', { words: true, nonwords: false }],
     'vue/template-curly-spacing': 'error',
+
+    // off
+    'vue/require-explicit-emits': 'off',
   },
 }
