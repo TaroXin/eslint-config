@@ -1,6 +1,6 @@
 {
   "name": "@taroxin/eslint-config",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "TaroXin's ESLint config",
   "author": "TaroXin <15029352778@163.com> (https://github.com/taroxin/)",
   "license": "MIT",
